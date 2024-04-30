@@ -30,15 +30,9 @@ public class GamblingWithAIs {
         suits.add("Hearts");
         //add things to cardsInSuit
         cardsInSuit.add("Ace");
-        cardsInSuit.add("2");
-        cardsInSuit.add("3");
-        cardsInSuit.add("4");
-        cardsInSuit.add("5");
-        cardsInSuit.add("6");
-        cardsInSuit.add("7");
-        cardsInSuit.add("8");
-        cardsInSuit.add("9");
-        cardsInSuit.add("10");
+        for (int i = 2; i <= 10; i++) {
+            cardsInSuit.add(i.toString());
+        }
         cardsInSuit.add("Jack");
         cardsInSuit.add("Queen");
         cardsInSuit.add("King");
